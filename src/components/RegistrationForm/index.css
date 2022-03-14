@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 70px;
+  margin: auto;
+  border-radius: 10px;
+  width: 50%;
+}
+h1 {
+  color: #ea580c;
+}
+.error {
+  background-color: #ff0b37;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.first {
+  width: 80%;
+}
+.LastName {
+  margin-top: 30px;
+}
+.last {
+  margin-bottom: 10px;
+  width: 80%;
+}
+.txt {
+  color: red;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 20%;
+  background-color: #ea580c;
+  color: white;
+  align-self: center;
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
